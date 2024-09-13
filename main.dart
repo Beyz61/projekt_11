@@ -1,10 +1,10 @@
 import 'dart:io';
-import 'user.dart';
-import 'recipe.dart';
+import 'classes/user.dart';
+import 'classes/rezepte_manger_.dart';
 
 void main() {
   print("Herzlich Willkommen bei Foodie :)");
-  User user = User();
+  Registration user = Registration();
   if (!user.registrieren()) {
     return;
   }
